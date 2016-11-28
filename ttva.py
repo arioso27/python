@@ -21,7 +21,7 @@ def ranStr( size=8, chars=string.ascii_lowercase + string.digits ):
 #_ def ranStr
 
 
-
+##main part
 def main( argv=None ):
 	sys.stdout = codecs.getwriter("utf_8")(sys.stdout.detach()) ##important
 	sys.stdin = codecs.getwriter("utf_8")(sys.stdin.detach()) ##important
@@ -63,6 +63,7 @@ def main( argv=None ):
 		print( "Unexpected error:", sys.exc_info()[0] )
 		out.flush()
 	#_ try
+
 
 #_ def main
 
