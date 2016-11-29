@@ -1,8 +1,10 @@
 ﻿##
-## progname: test va
-## version:
+## progname: ttva.py
+## version: 1.03
 ## modify date: 2016-1128 01:25:35
 ## by: arioso27
+## for: write a utf_16_le file with BOM
+
 
 import sys
 import os
